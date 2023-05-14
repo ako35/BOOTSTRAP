@@ -1,0 +1,62 @@
+body{
+    background-color: rgba(141, 200, 245, 0.873);
+    padding: 20px;
+}
+
+.register-form .card-body{
+    padding: 30px 50px;
+}
+
+.register-form .avatar{
+    background-color: rgb(28, 98, 195);
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    font-size: 2.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.register-form.card{
+    border-radius: 25px;
+}
+
+.register-form form{
+    margin: 50px 0 20px 0;
+}
+
+.register-form form button,
+.register-form form input{
+    padding: 8px 25px;
+    border-radius: 50px;
+}
+
+.register-form .card-footer{
+    background:none;
+    text-align: center;
+    padding: 30px;
+}
+
+.register-form .card-footer h5{
+    color: gray;
+}
+
+.register-form .card-footer .social-media{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.register-form .card-footer .social-media a{
+    border: 1px solid rgb(28, 98, 195);
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 1.3rem;
+}
